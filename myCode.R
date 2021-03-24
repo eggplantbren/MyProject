@@ -8,3 +8,7 @@ v = c(7, 3)
 # Matrix * vector multiplication
 y = M %*% v
 
+
+# Subsets
+R = matrix(runif(200), nrow=10, ncol=20)
+
