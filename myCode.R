@@ -12,3 +12,7 @@ y = M %*% v
 # Subsets
 R = matrix(runif(200), nrow=10, ncol=20)
 
+
+# Note to self: Study functions before pretending
+# to teach!
+
