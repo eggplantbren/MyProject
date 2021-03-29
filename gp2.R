@@ -1,4 +1,6 @@
 
+# Linear algebra is hard!
+
 
 covmat = function(N, sigma, ell)
 {
