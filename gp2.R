@@ -4,7 +4,7 @@ covmat = function(N, sigma, ell)
 {
     # Make a covariance matrix
     C = matrix(nrow=N, ncol=N)
-    C = sigma*exp(-0.5*(data$t[row(C)] - data$t[col(C)])^2 / ell^2)
+    C = sigma^2*exp(-0.5*(data$t[row(C)] - data$t[col(C)])^2 / ell^2)
 
     # For numerical stability!
     C = C + 1E-4*diag(N)
